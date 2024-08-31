@@ -10,7 +10,6 @@ class Node():
         self.dictionary_of_nodes = dictionary_of_nodes
         if dictionary_of_nodes != None:
             dictionary_of_nodes[from_point+str(self.level)] = self
-        # print(from_point,level)
 
 
 class generator:
